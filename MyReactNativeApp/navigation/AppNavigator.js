@@ -8,16 +8,17 @@ import PrescriptionDetails from '../screens/PrescriptionDetails';
 const Stack = createStackNavigator();
 
 const AppNavigator = () => {
-  return (
-    <NavigationContainer>
-      <Stack.Navigator screenOptions={{
-        headerShown: false
-      }}>
-        <Stack.Screen name="Home" component={HomeScreen} />
-        <Stack.Screen name="PrescriptionDetails" component={PrescriptionDetails} />
-      </Stack.Navigator>
-    </NavigationContainer>
-  );
+    return (
+        <NavigationContainer>
+            <Stack.Navigator screenOptions={{
+                headerShown: false,
+                cardStyle: { backgroundColor: '#fff'}
+            }}>
+                <Stack.Screen name="Home" component={HomeScreen} />
+                <Stack.Screen name="PrescriptionDetails" component={PrescriptionDetails} />
+            </Stack.Navigator>
+        </NavigationContainer>
+    );
 };
 
 export default AppNavigator;

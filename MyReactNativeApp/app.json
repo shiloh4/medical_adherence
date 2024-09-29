@@ -22,6 +22,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9ca09916-85c1-44f6-8f90-735266887667"
+      }
+    },
+    "owner": "ethanloo"
   }
 }
